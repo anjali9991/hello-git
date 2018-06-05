@@ -1,0 +1,19 @@
+GIT COMMANDS:-
+1.git init=This command creates an empty git repository-basically a .git directory with subdirectories.
+	command:-git init
+2.git status=This command is used to check the current status of the repository.
+	command:-git status
+3.git commit=It stores the current contents of the index in a new commit along with a log message from the user describing the changes.
+	command:-git commit -m "<message>"
+   -m:sets the commit's message
+4.git log=git logs allow you to review and read a history of everything that happend to a repository.
+	command:-git log
+5.git add=This command adds a change in the working directory to the stanging area.It tells Git that you want to include updates to a particular file in the next commit.
+	command:-git add
+6.git config=Thus command is used to specify git configurations settings with the git config command.
+	command:-git config --global user.name"<name>"
+		 git config --global user.email"<email>"
+7.git remote add origin=This command is used to add new remote
+	command:-git remote add origin"<url>"
+8.git push=Thus command is used to upload local repository content to a remote repository.
+	command:-git push -u origin master
